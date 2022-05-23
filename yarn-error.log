@@ -1,0 +1,42 @@
+Arguments: 
+  /home/lucas/.nvm/versions/node/v16.15.0/bin/node /home/lucas/.nvm/versions/node/v16.15.0/bin/yarn add react-crete-app my-app
+
+PATH: 
+  /home/lucas/anaconda3/bin:/home/lucas/anaconda3/condabin:/home/lucas/.nvm/versions/node/v16.15.0/bin:/home/lucas/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-crete-app: Not found
+      at Request.params.callback [as _callback] (/home/lucas/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/home/lucas/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/lucas/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/lucas/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "Reack-basico",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "lucas de souza santos <lucass.santoss210@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
